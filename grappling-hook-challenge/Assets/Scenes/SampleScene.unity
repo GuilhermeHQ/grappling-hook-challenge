@@ -166,7 +166,7 @@ BoxCollider:
   m_GameObject: {fileID: 274353621}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -232,6 +232,7 @@ GameObject:
   - component: {fileID: 315980904}
   - component: {fileID: 315980903}
   - component: {fileID: 315980902}
+  - component: {fileID: 315980906}
   m_Layer: 6
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -556,6 +557,19 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!65 &315980906
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315980900}
+  m_Material: {fileID: 13400000, guid: 5b7676ea3a565394fbeab364fec707e9, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6, y: 6, z: 6}
+  m_Center: {x: 3, y: 3, z: -3}
 --- !u!43 &343624938
 Mesh:
   m_ObjectHideFlags: 0
@@ -733,6 +747,7 @@ GameObject:
   - component: {fileID: 604508452}
   - component: {fileID: 604508451}
   - component: {fileID: 604508450}
+  - component: {fileID: 604508454}
   m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
@@ -1057,6 +1072,19 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!65 &604508454
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604508448}
+  m_Material: {fileID: 13400000, guid: 5b7676ea3a565394fbeab364fec707e9, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6, y: 6, z: 6}
+  m_Center: {x: 3, y: 3, z: -3}
 --- !u!1 &695820630
 GameObject:
   m_ObjectHideFlags: 0
@@ -1780,6 +1808,7 @@ GameObject:
   - component: {fileID: 1786084898}
   - component: {fileID: 1786084897}
   - component: {fileID: 1786084896}
+  - component: {fileID: 1786084900}
   m_Layer: 6
   m_Name: Cube (2)
   m_TagString: Untagged
@@ -2104,6 +2133,19 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!65 &1786084900
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786084894}
+  m_Material: {fileID: 13400000, guid: 5b7676ea3a565394fbeab364fec707e9, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6, y: 6, z: 6}
+  m_Center: {x: 3, y: 3, z: -3}
 --- !u!1 &1822967581
 GameObject:
   m_ObjectHideFlags: 0
@@ -2194,6 +2236,7 @@ GameObject:
   - component: {fileID: 1969207704}
   - component: {fileID: 1969207703}
   - component: {fileID: 1969207702}
+  - component: {fileID: 1969207706}
   m_Layer: 6
   m_Name: ground
   m_TagString: Untagged
@@ -2591,6 +2634,19 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!65 &1969207706
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1969207700}
+  m_Material: {fileID: 13400000, guid: 5b7676ea3a565394fbeab364fec707e9, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 100, y: 0, z: 100}
+  m_Center: {x: 50, y: 0, z: 50}
 --- !u!1 &2039693900
 GameObject:
   m_ObjectHideFlags: 0
